@@ -15,8 +15,10 @@ function App() {
       'https://youtube.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&maxResults=25&key=AIzaSyATnJJe08YFVjwP6spvks6-sPL4xpTCuVg',
       requestOptions,
     )
-      .then((response) => response.json())
-      .then((result) => setVideos(result.items))
+      .then((response) => {
+        response.json()
+      })
+      .then((result) => setVideos(result.item))
       .catch((error) => console.log('error', error))
   }, [])
   return <VideoList videos={videos} />
