@@ -1,0 +1,19 @@
+.video {
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+  margin-bottom: 0.2em;
+}
+
+.thumbnails {
+  width: 40%;
+}
+
+.title,
+.channelTitle {
+  margin: 0;
+}
+
+.channelTitle {
+  font-size: 0.9rem;
+}
