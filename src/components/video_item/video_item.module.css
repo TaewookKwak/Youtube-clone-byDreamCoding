@@ -44,3 +44,6 @@
 .channelTitle {
   font-size: 0.6rem;
 }
+
+@media screen and (min-width: 1000px) {
+}
