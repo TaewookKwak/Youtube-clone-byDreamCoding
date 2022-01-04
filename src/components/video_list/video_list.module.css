@@ -6,3 +6,10 @@
   justify-content: center;
   margin: 0;
 }
+
+@media screen and (max-width: 750px) {
+  .videos {
+    display: flex;
+    flex-direction: column;
+  }
+}
